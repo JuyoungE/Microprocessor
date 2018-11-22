@@ -48,11 +48,16 @@ I annotated each code of file.
 ## temperature_timer
 
 ### 1. OBJECTIVE
-     내가 타이머를 작동시키지 않더라도일정온도 이상이 되면 저절로 타이머가 작동하고 원하는 시간에 알려주는 컵라면 타이머가 있었으면 좋겠다고 생각
+     내가 타이머를 작동시키지 않더라도 일정온도 이상이 되면 저절로 타이머가 작동하고 원하는 시간에 알려주는 컵라면 타이머가 있었으면 좋겠다고 생각
     
 ### 2. DETAIL PROJECT DESCRIPTION
     뜨거운 물을 부어 뜨거워진 컵라면의 뚜껑의 온도를 외부온도센서가 감지하고 특정 온도를 넘어서게 되면 타이머가 작동하게 됩니다.또한 남은 시간을 볼수 있도록 7 segment에 나타낼 것입니다. 정해준 시간이 끝이나면 부저와 led를 이용해 사용자에게 타이머가 종료 되었음을 알려줄 것입니다.
 
 ### 3. HARDWARE DESIGN
+![11](https://user-images.githubusercontent.com/45000598/48890603-994b3b80-ee7c-11e8-99b4-a4f33a2033cc.PNG)
+       이번에 사용할 외부 센서는 tmp36으로 아날로그 출력을 가진 온도 센서입니다. 아날로그 전압이 출력되기 때문에 adc0포트와 연결하여 온도를 감지할 것입니다. 리퍼런스 전압의 경우 2.7~5.5V의 범위를 가지므로 5V로 정하였습니다.
+### 4. FUNCTIONS USED IN CODE
+
+    I annotated each code of file.
 
 
