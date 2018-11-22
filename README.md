@@ -45,3 +45,14 @@ I annotated each code of file.
     
 ![8](https://user-images.githubusercontent.com/45000598/48889558-9c90f800-ee79-11e8-9483-f161a066769e.PNG)
 
+## temperature_timer
+
+### 1. OBJECTIVE
+     내가 타이머를 작동시키지 않더라도일정온도 이상이 되면 저절로 타이머가 작동하고 원하는 시간에 알려주는 컵라면 타이머가 있었으면 좋겠다고 생각
+    
+### 2. DETAIL PROJECT DESCRIPTION
+    뜨거운 물을 부어 뜨거워진 컵라면의 뚜껑의 온도를 외부온도센서가 감지하고 특정 온도를 넘어서게 되면 타이머가 작동하게 됩니다.또한 남은 시간을 볼수 있도록 7 segment에 나타낼 것입니다. 정해준 시간이 끝이나면 부저와 led를 이용해 사용자에게 타이머가 종료 되었음을 알려줄 것입니다.
+
+### 3. HARDWARE DESIGN
+
+
